@@ -8,9 +8,12 @@ import LogIn  from "../views/login";
 import Tours from "../views/tours";
 import SignUp from "../views/signup";
 import Final from "../views/final";
-import NewTour from "../views/dashboard/newtour"
+import NewTour from "../views/dashboard/newtour" ;
+import DashLayout from "../components/dashboardlayout";
+import AllTours from "../views/dashboard/alltours"
 const Index=()=>{
     return(
+        <>
         <Routes>
             <Route element={<Home/>} path="/home"></Route>
             <Route element={<AboutUs/>} path="/aboutus"></Route>
@@ -19,8 +22,17 @@ const Index=()=>{
             <Route element={<Tours/>} path="/tours"></Route>
             <Route element={<SignUp/>} path="/signup"></Route>
             <Route element={<Final/>} path="/final"></Route>
-            <Route element={<NewTour/>} path="/newtour"></Route>
+            {/* <Route element={<NewTour/>} path="/newtour"></Route> */}
+            
         </Routes>
+        <DashLayout>
+            <Routes>
+                <Route path ="/dash/newtour" element={<NewTour/>} />
+                <Route element={<AllTours/>} path="/alltours"></Route>
+                <Route element={<NewTour/>} path="/newtour"></Route>
+            </Routes>
+        </DashLayout>
+        </>
     )
 };
 export default Index;

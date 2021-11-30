@@ -6,7 +6,7 @@ const NewTour =()=>{
 console.log (values);
     }
     return(
-        <DashLayout>
+        // <DashLayout>
         <Form onFinish={onFinish}>
 <Form.Item
 name="title"
@@ -62,7 +62,7 @@ rules= {[{required:true}]}
      </Form.Item>
         <Button htmlType="submit" type="primary"> Register Tour</Button>
         </Form>
-        </DashLayout>
+        // </DashLayout> 
     )
 }
  export default NewTour;

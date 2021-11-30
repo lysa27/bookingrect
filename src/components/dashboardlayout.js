@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import "./dashstyle.css"
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
+import { Link} from "react-router-dom"
 import 'antd/dist/antd.css';
 import { Layout, Menu } from 'antd';
 import {
@@ -22,13 +23,17 @@ const DashLayout =({children})=>{
           <div className="logo" />
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1" icon={<UserOutlined />}>
+                <Link to ="/dash/newtour">
              Create Tour
+             </Link>
             </Menu.Item>
             <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-              Accounts
+                < Link to="/alltours">
+              Manage all tours
+              </Link>
             </Menu.Item>
             <Menu.Item key="3" icon={<UploadOutlined />}>
-              Feedback
+              Logout
             </Menu.Item>
           </Menu>
         </Sider>
