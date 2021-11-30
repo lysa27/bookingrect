@@ -26,9 +26,12 @@ const ContactUs =()=>{
             <textarea></textarea><br/>
             <input type="submit" value="contact us" style={{'borderRadius':'30px', border:"2px solid black" ,background: "blue", color: "white" }}/>
                 </div>
-            <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+            {/* <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
             <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon> */}
+             {/* <a href="https://www.instagram.com/"> <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
+            <a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></a>
+            <a href="https://twitter.com/home"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a> */}
             </div>
             </div>
         </HomeLayout>

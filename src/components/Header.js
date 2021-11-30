@@ -9,8 +9,9 @@ const Header=()=>{
             <a href="../home">Home</a>
             <a href="../aboutus">About us</a>
             <a href="../contactus">Contact us</a>
-            <a href="#">Sign up</a>
-            <a href="#">Login</a>
+            <a href="../signup">Sign up</a>
+            <a href="../login">Login</a>
+            <a href="../tours">Tours</a>
         </div>
         </div>
     )

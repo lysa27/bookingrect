@@ -15,7 +15,7 @@ As members , we provide the highest level of travel management in the industry.<
             <div className="fd2p"><p>&copy; Designed by Lysa</p></div>
             </div>
             <div className="fd3">
-                <h1> INFO:</h1>
+                <h1> Info:</h1>
                 <p>Rwanda-Kigali-Kacyiru</p>
                 <br/>
                 <p>P.O.Box 106 Kigali</p>
