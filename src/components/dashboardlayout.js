@@ -27,13 +27,17 @@ const DashLayout =({children})=>{
              Create Tour
              </Link>
             </Menu.Item>
-            <Menu.Item key="2" icon={<VideoCameraOutlined />}>
+            <Menu.Item key="2" icon={<VideoCameraOutlined />} 
+            >
                 < Link to="/alltours">
               Manage all tours
               </Link>
             </Menu.Item>
-            <Menu.Item key="3" icon={<UploadOutlined />}>
+            <Menu.Item key="3" icon={<UploadOutlined />} onClick ={()=>
+            localStorage.removeItem("userLogedIn")
+        }> <link to ="/home">
               Logout
+              </link>
             </Menu.Item>
           </Menu>
         </Sider>

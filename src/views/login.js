@@ -4,8 +4,10 @@ import {faInstagram} from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useNavigate } from "react-router";
 // import gare from "../assets/gare.jpg"
 const LogIn =()=>{
+    const navigate= useNavigate();
     return(
         <HomeLayout>
             <div className="log">
@@ -19,7 +21,10 @@ const LogIn =()=>{
             <label for ="input">Password:</label><br/>
             <input type="password"/><br/><br/>
             <p> Or you don't have an account just sign in<a href="./signup"> Create account</a></p>
-            <a href="./final"><button className= "morebutton"> Send</button></a> 
+             <button htmlType="submit" className= "morebutton" onClick={()=>{ 
+                localStorage.setItem("userLogedIn",true);
+                navigate("/dash/newtour");
+            }}> Send</button>
             </div>  
              <div className="licon">
                    

@@ -1,5 +1,5 @@
 
-import React from "react";
+import React ,{useEffect} from "react";
 import { Routes , Route } from "react-router-dom"; 
 import Home from "../views/home";
 import AboutUs from "../views/aboutus";
@@ -10,7 +10,8 @@ import SignUp from "../views/signup";
 import Final from "../views/final";
 import NewTour from "../views/dashboard/newtour" ;
 import DashLayout from "../components/dashboardlayout";
-import AllTours from "../views/dashboard/alltours"
+import AllTours from "../views/dashboard/alltours";
+const isUserLogedIn = localStorage.getItem("userLogedIn")
 const Index=()=>{
     return(
         <>
@@ -25,13 +26,20 @@ const Index=()=>{
             {/* <Route element={<NewTour/>} path="/newtour"></Route> */}
             
         </Routes>
-        <DashLayout>
-            <Routes>
-                <Route path ="/dash/newtour" element={<NewTour/>} />
-                <Route element={<AllTours/>} path="/alltours"></Route>
-                <Route element={<NewTour/>} path="/newtour"></Route>
-            </Routes>
-        </DashLayout>
+        {
+            isUserLogedIn? (
+                <DashLayout>
+                <Routes>
+                    <Route path ="/dash/newtour" element={<NewTour/>} />
+                    <Route element={<AllTours/>} path="/alltours"></Route>
+                    <Route element={<NewTour/>} path="/newtour"></Route>
+                </Routes>
+            </DashLayout>
+            ) : ( 
+                <></>
+            )
+        }
+       
         </>
     )
 };
