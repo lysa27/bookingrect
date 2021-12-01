@@ -1,0 +1,84 @@
+.foter{
+    background: rgba(238, 174, 11, 0.459);
+    width: 100%;
+    height: 50vh;
+     display:flex;  
+    /* flex-direction: column; */
+    margin: 15.2vh 0px 0px 0px;
+    /* position: fixed;   */
+}
+.fd2 p{
+    color: rgb(15, 15, 15);
+     padding:2vh 5px 0px 2px; 
+    font-size: 3.5vh;
+    margin-top: -1vh; 
+    text-align: center;
+}
+/* .fd2 p:hover{ */
+    /* color: rgb(8, 8, 8); */
+/* } */
+.fd1{
+    /* background: black; */
+    height: 80%;
+    width: 33.3%;
+    margin-right: -55px;
+}
+.fd1 h1{
+    color:blue; 
+    font-size: 30px;
+    margin-left: 60px;
+}
+.fd1 h1:hover{
+color:blue;
+}
+.fd1 p{
+    color:black;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 17.5px;
+}
+.fd2{
+    /* background:blue; */
+    height: 100%;
+    width: 33.3%;
+    margin-left: 130px;
+}
+.fd2 h1{
+    font-size: 30px;
+    margin-left: 60px;
+    color: blue;
+}
+.fd2 h1:hover{
+color: blue;
+}
+.fd2p{
+    color: rgba(15, 15, 15, 0.651); 
+    padding:2vh 5px 0px 2px; 
+   font-size: 3vh;
+   margin-top: -1vh; 
+   text-align: center;
+}
+.fd2p:hover{
+    color: blue;
+}
+.fd3{
+    /* background:grey; */
+    height: 100%;
+    width: 33.4%;
+    margin-left: 140px;
+}
+.fd3 h1{
+    font-size: 30px;
+    margin-left: 130px;
+    color: blue;
+}
+.fd3 p{
+    color: rgb(15, 15, 15); 
+    padding:2vh 5px 0px 2px; 
+   font-size: 3vh;
+   margin-top: -4vh; 
+   text-align: center;
+}
+.fd3 h1:hover{
+    color: blue;
+}

@@ -1,0 +1,67 @@
+[
+    {
+      "title": " Nyungwe Park",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 50,
+      "available": 20,
+      "images": ["https://www.visitrwanda.com/wp-content/uploads/fly-images/3619/canopy-1650x1014.jpg", ""],
+      "dateScheduled": "10 August 2021",
+      "dueDate": "15 december 2021",
+      "phone": "+250 788 788 788",
+      "price":3000,
+      "user":{
+          "name":"John Smith",
+          "phone":"+250781525384"
+      },
+      "tripDescription":" One of the oldest rainforests in Africa, Nyungwe is rich in biodiversity and spectacularly beautiful. The mountainous region is teaming with wildlife, including a small population of chimpanzees as well as 12 other species of primate including the L’Hoest’s monkey endemic to the Albertine Rift.With 15 trails some of which are detailed here, along with various other activities, visitors can choose to sample the delights of the forest or indulge themselves for a week or more in one of Africa’s most stunning forests. Primate tracking tops most visitor’s list, but it’s worth lingering a little longer for those with time to relax and take in the primal atmosphere.Botanists will marvel at the 1,068 plant species and 140 orchids. The birdwatching is among the best in Africa with 322 birds species including Red-collared Babbler and 29 other Albertine Rift Endemic species. Butterflies are also a common sight, with at least 120 species.There are 75 known mammals in Nyungwe such as the cerval cat, mongoose, congo clawless otter and leopard to name but a few. Many tend to be shy so sightings are luck of the draw. Memorable and photogenic moments include walking up to the Isumo waterfall or along the Canopy Walk suspension bridge. Tea plantations border the edges of the park with a habituated troop of Ruwenzori colobus monkeys at Gisakura as well as forest fringe birds.With plenty of rainfall, Nyungwe is also the major catchment area in Rwanda, and supplies water to 70% of the country.A ridge running through the forest forms a watershed between the drainage systems of the Nile and the Congo. A spring on the slopes of Mt Bigugu is said to be the most remote source of the Nile the world’s longest river."
+    },
+  
+    {
+      "title": " Muhazi Lac",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 50,
+      "available": 20,
+      "images": ["https://ikazerwandatours.com/wp-content/uploads/2018/06/Lake-Muhazi-views.jpeg", ""],
+      "dateScheduled": "10 december 2021",
+      "dueDate": "15 january 2022",
+      "phone": "+250 788 788 788",
+      "price":3000,
+      "user":{
+          "name":"John Smith",
+          "phone":"+250781525384"
+      },
+      "tripDescription":"Lake Muhazi (Kinyarwanda: Ikiyaga cya Muhazi) is a long thin shallow lake in the east of Rwanda. ... It is a flooded valley lake, lying predominantly in an east to west direction, but with numerous offshoots in a north to south direction, formerly the location of tributaries.Muhazi is situated in the Eastern Province of Rwanda along the northern margin of the RwamaganaThe Muhazi lake shore at Gahini is popular with tourists and features two resorts: the Seeds of Peace centre, which offers accommodation, and Jambo Beach. These are used both as stop off points for journeys to or from Akagera National Park, and as venues for lake tourism, offering boating, fishing and bird watching.The formation in the 17th century of a new Rwandan dynasty by mwami Ruganzu Ndori, followed by eastward invasions, the retaking of Buganza and the conquest of Bugesera, marked the beginning of the Rwandan kingdom's dominance in the area."
+    },
+    {
+      "title": " volcanoes national park ",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 80,
+      "available": 30,
+      "images": ["https://rwandaecocompany.com/wp-content/uploads/2020/01/kibira-n.p.jpg", ""],
+      "dateScheduled": "10 november 2021",
+      "dueDate": "15 december 2021",
+      "phone": "+250 788 788 788",
+      "price":3000,
+      "user":{
+          "name":"John Smith",
+          "phone":"+250781525384"
+      },
+      "tripDescription":"Situated in the far northwest corner of Rwanda, Volcanoes National Park (Parc National des Volcans) protects the steep rainforested slopes of the magnificent Virungas mountain range.Karisimbi is the highest of the Virunga volcanoes in Central Africa in the border region of Rwanda and DR Congo. It is the 11th highest mountain of Africa and currently in a dormant stage. The mountain is believed to be home to spirits and there are many legends associated with it.Volcanoes National Park, Rwanda is home to 340 of the earth's 780 Mountain Gorillas remaining in the wild. It is also the location where researcher Dian Fossey dedicated 20 years of her life, studying and observing these giants and their primate neighbors in the their natural habitat.Gorilla trekking in Volcanoes National Park is one of Rwanda's biggest tourist attractions. ... Volcanoes is considered to be especially safe because tourism and gorilla trekking bring in thousands of travellers each year.Mount Gahinga is one of the Virunga volcanoes but a dormant volcano with its last eruption being unknown yet it is also estimated to be the smallest of the Virunga mountains.It covers 160 km2 (62 sq mi) of rainforest and encompasses five of the eight volcanoes in the Virunga Mountains, namely Karisimbi, Bisoke, Muhabura, Gahinga and Sabyinyo.Mount Karisimbi is a stratovolcano in the Virunga Mountains on the border between Rwanda and the Democratic Republic of Congo."
+    },
+    {
+      "title": " Akagera National Park",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 40,
+      "available": 20,
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM8GvpUizh1A6fhPAsSBqAySHQwLLYFflDkOruOqB2P5zQmmKqwDTHsE1hejdsa7tPXvI&usqp=CAU", ""],
+      "dateScheduled": "10 january 2022",
+      "dueDate": "15 april 2022",
+      "phone": "+250 788 788 788",
+      "price":3000,
+      "user":{
+          "name":"John Smith",
+          "phone":"+250781525384"
+      },
+      "tripDescription":"The 100 000-hectare Akagera National Park is situated in eastern Rwanda, bordering Tanzania, and has been managed by African Parks in partnership with the Rwanda Development Board since 2010. It comprises some of the most scenic savannah in East Africa – open plains, woodlands, lakes, swamp, and grassy low mountains.Following lion and rhino reintroductions, Akagera officially became a “Big Five” park in May 2017. It now boasts thriving populations of lion, leopard, elephant, rhino, and buffalo, as well as zebra, giraffe, and hundreds of bird species. A leopard in Akagera.The best time for visitors to visit Akagera National Park is during the dry season, which is between June to September. The climate in the park does not change much throughout the year, but visitors will experience warmer temperatures during the long dry season.There are 10 lakes located within Akagera national park and these can be explored by visitors in the park. Some of the most commonly visited lakes in the park include Lake Ihema and Lake Shakani.There are now 15 lions in the park, currently. In June last year, seven lions -- consisting five females and two males -- were translocated from South Africa into Akagera National Park, which is located in the Eastern Province. These were the first lions in Akagera and Rwanda in general, in almost two decades.1,122 km²The national park is home to over 8000 wildlife animals including; lions, the leopard, black eastern rhinoceros, the Cape buffalo, over 100 savannah elephants, antelope, impala, hippos, crocodiles and over 500 bird species. Akagera national park is the biggest national park in Rwanda, covering 1,122km².The national park currently covers 1,122km² and mainly consists of savanna, montane forests, woodland, marsh, and swamps. The park is being managed by Akagera Management Company, after a joint agreement in 2010 between Rwanda Development Board and African Parks, to manage the national park.In Rwanda, according to Drew Bantlin, the Conservation and Research Manager at Akagera National Park, the lion population in the park has grown five times to 35 since 2015, when seven lions were translocated into the park in 2015.z  "
+    }
+  ]

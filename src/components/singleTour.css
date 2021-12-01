@@ -1,0 +1,42 @@
+.singletour-container{
+    /* background-color: blue; */
+    width: 90%;
+    /* height: 50vh; */
+    margin-left: 60px;
+}
+.singletour-container h1{
+    text-align: center;
+    padding-top: 2vh;
+}
+.singletour-container img{
+    width: 100%;
+}
+.singletour-container p{
+    font-size: 3vh;
+    padding: 5vh;
+    color: black;
+}
+ .morebutton{
+    background: rgb(7, 7, 7);
+    height: 5vh;
+    width: 30vh;
+    border-radius: 5vh ;
+    box-shadow: 2px 2px 2px 2px rgba(255, 166, 0, 0.548);
+    padding: -10vh 0vh 0vh 50vh; 
+    margin-left: 120px;
+    margin-top: 1px;
+    font-size: 3vh;
+    font-style: oblique;
+}
+.span-div{
+    /* background: blue; */
+    height: 60vh;
+    padding-top: 5vh;
+    padding-left: 10vh;
+}
+.span-div button{
+    background: brown;
+    margin-top: 10vh;
+    margin-left: 40vh;
+    color:white;
+}

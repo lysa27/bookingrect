@@ -1,0 +1,271 @@
+.home-container{
+    background-color: rgba(0, 0, 255, 0.596);
+    height: 130vh;
+    width: 100%;
+    /* padding: 15px 50px 15px 50px; */
+    box-shadow: 2px 2px 2px 2px grey;
+    background-image: url(../assets/use.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;  */
+}
+
+.home-container h1{
+    font-size: 10vh;
+    margin: 10vh 10px 10px 40vh;
+    color: rgb(255, 254, 254);
+}
+.home-container h1:hover{
+    color: rgb(253, 251, 251);
+}
+.quote{
+    background: rgba(82, 76, 30, 0.26);
+    width:40%;
+    height: 50vh;
+    margin: 15vh 0px 0px 60vh;
+    border-radius: 5vh;
+}
+.quote button{
+    background: darkgray;
+    height: 5vh;
+    width: 30vh;
+    border-radius: 5vh ;
+    box-shadow: 2px 2px 2px 2px rgba(255, 166, 0, 0.548);
+    margin: 6vh 0vh 0vh 30vh;
+    font-size: 3vh;
+    font-style: oblique;
+}
+.quote button:hover{
+    background: rgba(39, 2, 248, 0.726); 
+    color: white;
+}
+.quote p{
+    padding: 0.5vh 8vh 0px 5vh; 
+    font-size: 2.5vh;
+    color: rgb(248, 244, 244);
+    /* margin: 5vh; */
+}
+.aboutus h1{
+    color: rgb(12, 12, 12);
+    margin: 10vh 0vh 0vh 80vh ;
+}
+.aboutus{
+    background-color: white;
+    width: 100%;
+    height:130vh; 
+    background-image: none;
+    background-size: cover;
+     margin: -10vh 0vh 0vh 0vh; 
+}
+.aboutus h1:hover{
+    color:black;
+
+    
+}
+.aboutdiv{
+    height: 58vh;
+    width: 80%;
+    /* background: rgb(0, 0, 0); */
+     margin: 2vh 0vh 0vh 30vh; 
+}
+.aboutdiv h1{
+    font-size: 5vh;
+    margin: 5vh 0vh 0vh 5px; 
+    text-align: center;
+
+}
+.aboutdiv h1:hover{
+    color: blue;
+}
+.aboutdiv p{
+    color: rgb(10, 10, 10);
+    padding: 2vh 3vh 0vh 5vh;
+    font-size: 3vh;
+}
+.finaldiv{
+    color: rgb(10, 10, 10);
+    padding: 55vh 3vh 0vh 5vh;
+    font-size: 8vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+.contact{
+    /* background-color: white;  */
+    width: 100%;
+    height:30vh;
+    background-image: none;
+    /* background-size: cover; */
+     /* margin: -130vh 0vh 0vh 0vh;  */
+}
+.contact h1{
+    font-size: 10vh;
+    padding: 5vh 3vh 0vh 5vh;
+    color: black;
+
+}
+.contact h1:hover{
+    color: black;
+}
+.contact1{
+    background: rgba(6, 104, 196, 0.527);
+    width: 80%;
+    height: 75vh;
+    margin: 0vh 0vh 0vh 15vh;
+    
+}
+.icon {
+    margin: 65vh 0vh 0vh 80vh;
+}
+.info{
+    margin: -130vh 0vh 0vh 0vh;
+}
+.info label{
+    font-size: 5vh;
+    font-weight: bolder;
+}
+.info input{
+    height: 4vh;
+    width: 50%;
+}
+.info textarea{
+    width: 50%;
+    height: 15vh;
+}
+.imagecont img{
+    width: 40%;
+    height:75vh;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.licon {
+    margin: 50vh 0vh 0vh 30vh;
+    height: 30vh;
+    /* size: 30vh; */
+}
+.log{
+    padding: 10vh 0vh 0vh 20vh;
+    margin: 0.2vh 0vh 0vh 0vh;
+    background: white;
+    width: 100%;
+}
+.log h1{
+    padding-left:15vh;
+    color: blue;
+    /* font-size: 5vh; */
+}
+.log h1:hover{
+    color: blue;
+}
+.sign-up h1{
+    padding-left:-20vh;
+    color: blue;
+    /* font-size: 5vh; */
+}
+.sign-up h1:hover{
+    color: blue;
+}
+.linfo{
+     /* background: blue;  */
+    height: 15vh;
+    width: 50vh;
+    font-size: 4vh;
+}
+.linfo p{
+    font-size: 3.5vh;
+}
+.linfo a{
+    color: blue;
+}
+.linfo a:hover{
+    color: blue;
+}
+.linfo button{
+    background: brown;
+    margin-top: 2vh;
+    margin-left: 20vh;
+    color:white;
+}
+.login{
+    height:83vh;
+    background: rgba(249, 249, 250, 0);
+    width: 50%;
+    padding: 10vh;
+    margin-left: 35vh;
+}
+.sign-up{
+    padding: 10vh 0vh 0vh 20vh;
+    margin: 0.2vh 0vh 0vh 0vh;
+    background: white;
+    width: 100%;
+}
+.signup{
+    height:83vh;
+    background: rgba(249, 249, 250, 0);
+    width: 50%;
+    padding: 10vh;
+    margin-left: 35vh;
+}
+.sinfo{
+    height: 15vh;
+    width: 50vh;
+    font-size: 3vh;
+}
+.sinfo p{
+    font-size: 3vh;
+}
+.sinfo a{
+    color: blue;
+}
+.sinfo a:hover{
+    color: blue;
+}
+.sinfo button{
+    background: brown;
+    margin-top: 10vh;
+    margin-left: 40vh;
+    color:white;
+}
+.tourcard-container{
+    width: 80%;
+    min-height:50vh; 
+    background-color: rgb(72, 255, 0);
+    display: flex;
+    margin: 2vh;
+    height: 60vh;
+    border-radius:15px;
+}
+.quotes{
+    background-color: cornsilk;
+    width: 60%;
+}
+.quotes h1{
+    font-size: 5vh;
+    width: 70vh;
+    margin-left: 20vh;
+     margin-top:5px;
+    color: blue;
+    /* margin-top: -70vh; */
+    
+}
+.quotes h1:hover{
+color:blue
+}
+.tours-container{
+    background-color: brown;
+    min-height: 310vh;
+    width: 100%;
+    padding-top: 10vh;  
+    padding-left: 30vh; 
+   
+}
+.imagecont1{
+    width: 40%;
+    background-color: cyan;
+}
+.imagecont1 img{
+    width: 100%;
+    height:100%; 
+}
