@@ -35,9 +35,9 @@ const DashLayout =({children})=>{
             </Menu.Item>
             <Menu.Item key="3" icon={<UploadOutlined />} onClick ={()=>
             localStorage.removeItem("userLogedIn")
-        }> <link to ="/home">
+        }> <Link to ="/home">
               Logout
-              </link>
+              </Link>
             </Menu.Item>
           </Menu>
         </Sider>

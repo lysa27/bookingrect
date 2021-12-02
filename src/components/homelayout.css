@@ -26,7 +26,7 @@
     border-radius: 5vh;
 }
 .quote button{
-    background: darkgray;
+    background: rgb(41, 3, 255);
     height: 5vh;
     width: 30vh;
     border-radius: 5vh ;
@@ -34,9 +34,10 @@
     margin: 6vh 0vh 0vh 30vh;
     font-size: 3vh;
     font-style: oblique;
+    color: white;
 }
 .quote button:hover{
-    background: rgba(39, 2, 248, 0.726); 
+    background: rgb(41, 3, 255); 
     color: white;
 }
 .quote p{
@@ -183,7 +184,7 @@
     color: blue;
 }
 .linfo button{
-    background: brown;
+    background: rgb(214, 127, 14);
     margin-top: 2vh;
     margin-left: 20vh;
     color:white;
