@@ -1,7 +1,7 @@
 [
     {
       "title": " Nyungwe Park",
-      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "description": "One of the oldest rainforests in Africa, Nyungwe is rich in biodiversity and spectacularly beautiful...",
       "seats": 50,
       "available": 20,
       "images": ["https://www.visitrwanda.com/wp-content/uploads/fly-images/3619/canopy-1650x1014.jpg", ""],
@@ -17,8 +17,8 @@
     },
   
     {
-      "title": " Muhazi Lac",
-      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "title": " Muhazi Lake",
+      "description": "The Muhazi lake shore at Gahini is popular with tourists and features two resorts: the Seeds of Peace centre, which offers accommodation, and Jambo Beach...",
       "seats": 50,
       "available": 20,
       "images": ["https://ikazerwandatours.com/wp-content/uploads/2018/06/Lake-Muhazi-views.jpeg", ""],
@@ -34,7 +34,7 @@
     },
     {
       "title": " volcanoes national park ",
-      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "description": "Situated in the far northwest of Rwanda, Volcanoes National Park protects the steep slopes of this magnificent mountain range...",
       "seats": 80,
       "available": 30,
       "images": ["https://rwandaecocompany.com/wp-content/uploads/2020/01/kibira-n.p.jpg", ""],
@@ -50,7 +50,7 @@
     },
     {
       "title": " Akagera National Park",
-      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "description": "Akagera National Park lies in eastern Rwanda, hugging the border with Tanzania. It's characterized by woodland, swamps, low mountains and ... ",
       "seats": 40,
       "available": 20,
       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM8GvpUizh1A6fhPAsSBqAySHQwLLYFflDkOruOqB2P5zQmmKqwDTHsE1hejdsa7tPXvI&usqp=CAU", ""],

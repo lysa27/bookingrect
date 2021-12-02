@@ -17,16 +17,17 @@
     color: black;
 }
  .morebutton{
-    background: rgb(7, 7, 7);
+    background: blue;
     height: 5vh;
     width: 30vh;
     border-radius: 5vh ;
     box-shadow: 2px 2px 2px 2px rgba(255, 166, 0, 0.548);
     padding: -10vh 0vh 0vh 50vh; 
     margin-left: 120px;
-    margin-top: 1px;
+     margin-top: 1px;
     font-size: 3vh;
     font-style: oblique;
+    
 }
 .span-div{
     /* background: blue; */
@@ -35,7 +36,7 @@
     padding-left: 10vh;
 }
 .span-div button{
-    background: brown;
+    background: blue;
     margin-top: 10vh;
     margin-left: 40vh;
     color:white;

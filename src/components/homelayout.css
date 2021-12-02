@@ -26,7 +26,7 @@
     border-radius: 5vh;
 }
 .quote button{
-    background: rgb(41, 3, 255);
+    background: blue;
     height: 5vh;
     width: 30vh;
     border-radius: 5vh ;
@@ -37,7 +37,7 @@
     color: white;
 }
 .quote button:hover{
-    background: rgb(41, 3, 255); 
+    background: blue; 
     color: white;
 }
 .quote p{
@@ -76,7 +76,7 @@
 
 }
 .aboutdiv h1:hover{
-    color: blue;
+    color: black;
 }
 .aboutdiv p{
     color: rgb(10, 10, 10);
@@ -224,7 +224,7 @@
     color: blue;
 }
 .sinfo button{
-    background: brown;
+    background: blue;
     margin-top: 10vh;
     margin-left: 40vh;
     color:white;
@@ -232,14 +232,14 @@
 .tourcard-container{
     width: 80%;
     min-height:50vh; 
-    background-color: rgb(72, 255, 0);
+    background-color: rgba(72, 255, 0, 0);
     display: flex;
     margin: 2vh;
     height: 60vh;
     border-radius:15px;
 }
 .quotes{
-    background-color: cornsilk;
+    background-color: rgba(0, 0, 255, 0.411);
     width: 60%;
 }
 .quotes h1{
@@ -255,7 +255,7 @@
 color:blue
 }
 .tours-container{
-    background-color: brown;
+    background-color: white;
     min-height: 310vh;
     width: 100%;
     padding-top: 10vh;  

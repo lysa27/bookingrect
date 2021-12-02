@@ -19,7 +19,7 @@ const SingleTour=({tour})=>{
                 {tour.seats}</label><br/><br/>
                 <label>Phone -number:
                 {tour.phone}</label>
-                 <a href="./signup"><button className= "morebutton"> Book Now</button></a> 
+                 <a href="#"><button className= "morebutton"> Book Now</button></a> 
             </span>
             </div>
         </div>

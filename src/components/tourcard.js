@@ -24,16 +24,16 @@ const TourCard=({data})=>{
             <h1>{data.title}</h1>
             <p style={{ fontSize:"20px", color:"black", marginBottom:"10px", padding:"25px"}}>{data.description}</p>
             <span style={{ marginTop:"20px", fontWeight:"700", marginLeft:"15px",}}>
-                <label>Date Scheduled:
+                <label style={{margin:"10px"}}>Date Scheduled:
                 {data.dueDate}
-                </label><br/><br/>
-                <label> Due Date Scheduled:
+                </label ><br/><br/>
+                <label style={{margin:"25px"}}> Due Date Scheduled:
                 {data.dateScheduled}</label><br/><br/>
-                <label>Available Seats:
+                <label style={{margin:"28px" , textAlign:"center"}}>Available Seats:
                 {data.seats}</label><br/><br/>
-                <label>Phone -number:
+                <label style={{margin:"30px"}}>Phone -number:
                 {data.phone}</label>
-                <a href="#"><button className= "morebutton" onClick={()=>handleClickDrawerVisible()}>Read More...</button></a>
+                <a href="#"><button className= "morebutton" onClick={()=>handleClickDrawerVisible()} style={{color:"white"}}>Read More...</button></a>
 
             </span>
             </div>
