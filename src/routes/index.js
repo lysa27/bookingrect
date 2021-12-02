@@ -33,7 +33,7 @@ const Index=()=>{
                 <Routes>
                     <Route path ="/dash/newtour" element={<NewTour/>} />
                     <Route element={<AllTours/>} path="/dash/alltours"></Route>
-                    <Route element={<NewTour/>} path="/newtour"></Route>
+                    <Route element={<NewTour/>} path="/dash/newtour"></Route>
                 </Routes>
             </DashLayout>
             ) : ( 
