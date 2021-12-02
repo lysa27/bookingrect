@@ -31,7 +31,7 @@ const Index=()=>{
             isUserLogedIn && currentUrl.includes("/dash") ? (
                 <DashLayout>
                 <Routes>
-                    <Route path ="/dash/newtour" element={<NewTour/>} />
+                    {/* <Route path ="/dash/newtour" element={<NewTour/>} /> */}
                     <Route element={<AllTours/>} path="/dash/alltours"></Route>
                     <Route element={<NewTour/>} path="/dash/newtour"></Route>
                 </Routes>

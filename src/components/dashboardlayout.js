@@ -29,7 +29,7 @@ const DashLayout =({children})=>{
             </Menu.Item>
             <Menu.Item key="2" icon={<VideoCameraOutlined />} 
             >
-                < Link to="/alltours">
+                < Link to="/dash/alltours">
               Manage all tours
               </Link>
             </Menu.Item>
